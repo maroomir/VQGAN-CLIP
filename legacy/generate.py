@@ -12,7 +12,7 @@ import os
 
 # pip install taming-transformers doesn't work with Gumbel, but does not yet work with coco etc
 # appending the path does work with Gumbel, but gives ModuleNotFoundError: No module named 'transformers' for coco etc
-sys.path.append('taming-transformers')
+sys.path.append('../taming-transformers')
 
 from omegaconf import OmegaConf
 from taming.models import cond_transformer, vqgan

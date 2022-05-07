@@ -25,7 +25,7 @@ import cog
 from CLIP import clip
 from PIL import ImageFile, Image, PngImagePlugin, ImageChops
 
-sys.path.append("taming-transformers")
+sys.path.append("../taming-transformers")
 from taming.models import cond_transformer, vqgan
 
 ImageFile.LOAD_TRUNCATED_IMAGES = True
